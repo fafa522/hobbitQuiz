@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/quiz/static/css/main.b3aadda3.css",
-    "main.js": "/quiz/static/js/main.e8d6b7df.js",
-    "static/media/pixelRing.gif": "/quiz/static/media/pixelRing.a6d5c4c7e6a962c3b3f4.gif",
-    "index.html": "/quiz/index.html",
-    "main.b3aadda3.css.map": "/quiz/static/css/main.b3aadda3.css.map",
-    "main.e8d6b7df.js.map": "/quiz/static/js/main.e8d6b7df.js.map"
+    "main.css": "/hobbitQuiz/static/css/main.b3aadda3.css",
+    "main.js": "/hobbitQuiz/static/js/main.cc99f4bb.js",
+    "static/media/pixelRing.gif": "/hobbitQuiz/static/media/pixelRing.a6d5c4c7e6a962c3b3f4.gif",
+    "index.html": "/hobbitQuiz/index.html",
+    "main.b3aadda3.css.map": "/hobbitQuiz/static/css/main.b3aadda3.css.map",
+    "main.cc99f4bb.js.map": "/hobbitQuiz/static/js/main.cc99f4bb.js.map"
   },
   "entrypoints": [
     "static/css/main.b3aadda3.css",
-    "static/js/main.e8d6b7df.js"
+    "static/js/main.cc99f4bb.js"
   ]
 }
