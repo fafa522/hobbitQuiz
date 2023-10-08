@@ -2,7 +2,7 @@
   "name": "quiz",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fafa522.github.io/quiz/",
+  "homepage": "https://fafa522.github.io/hobbitQuiz/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
