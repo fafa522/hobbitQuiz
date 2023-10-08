@@ -1,0 +1,28 @@
+.Rules {
+  color: rgb(163, 159, 173);
+  font-size: 4vw;
+  margin-left: 2vw;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+
+ol {
+  padding-left: 3vw;
+  margin-left: 1vw;
+
+  li {
+    color: rgb(163, 159, 173);
+    font-size: 2vw;
+    line-height: 2vw;
+    margin-top: 1vw;
+  }
+
+  span {
+    color: rgb(242, 173, 54);
+  }
+
+  a {
+    color: rgb(242, 173, 54);
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,21 @@
+.wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  h1 {
+    margin-top: 4vw;
+    color: rgb(163, 159, 173);
+    font-size: 3vw;
+
+    span {
+      color: rgb(242, 173, 54);
+    }
+  }
+
+  img {
+    width: 50vw;
+    height: 30vw;
+    margin-top: 9vw;
+  }
+}

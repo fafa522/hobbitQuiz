@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vw;
+
+  .header-button {
+    font-size: 2vw;
+    border: none;
+    color: rgb(242, 173, 54);
+    cursor: pointer;
+
+    &.quiz {
+      margin-right: 2vw;
+    }
+  }
+
+  .header-button:hover {
+    color: rgb(163, 159, 173);
+  }
+}

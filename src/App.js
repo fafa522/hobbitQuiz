@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.scss";
+import Rules from "./RulesScreen/Rules";
+import { Route, Routes } from "react-router-dom";
+import WinScreen from "./WinScreen/WinScreen";
+import GameScreen from "./GameScreen/GameScreen";
+import LoseScreen from "./LoseScreen/LoseScreen";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" element={<GameScreen />} />
+        <Route path="/rules" element={<Rules />} />
+        <Route path="/win" element={<WinScreen />} />
+        <Route path="/lose" element={<LoseScreen />} />
+      </Routes>
     </div>
   );
 }

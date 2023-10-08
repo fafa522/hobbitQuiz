@@ -1,0 +1,53 @@
+.main-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8vw;
+
+  img {
+    width: 25vw;
+    height: 25vw;
+  }
+
+  .form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    label {
+      display: none;
+    }
+
+    input {
+      width: 30vw;
+      height: 5vw;
+      font-size: 3vw;
+      border: 1px solid rgb(163, 159, 173);
+      outline: none;
+      margin-bottom: 3vw;
+      color: rgb(163, 159, 173);
+      padding-left: 1vw;
+    }
+    input::placeholder {
+      color: rgb(163, 159, 173);
+    }
+
+    input:focus {
+      border: 1px solid rgb(242, 173, 54);
+    }
+
+    button {
+      width: 30vw;
+      height: 5vw;
+      font-size: 3vw;
+      background-color: rgb(242, 173, 54);
+      color: white;
+      border: none;
+    }
+
+    button:active {
+      background-color: rgb(245, 182, 73);
+      transform: scale(99%);
+    }
+  }
+}
