@@ -1,19 +1,19 @@
-import React from "react";
-import "./GameScreen.scss";
-import Header from "../NavBarHeader/Header";
-import { useNavigate } from "react-router-dom";
+import React from 'react';
+import './GameScreen.scss';
+import Header from '../NavBarHeader/Header';
+import { useNavigate } from 'react-router-dom';
 
 const GameScreen = () => {
   const [dwarves, setDwarves] = React.useState([]);
   const [randomDwarf, setRandomDwarf] = React.useState(null);
-  const [nameDwarf, setNameDwarf] = React.useState("");
-  const [ageDwarf, setAgeDwarf] = React.useState("");
+  const [nameDwarf, setNameDwarf] = React.useState('');
+  const [ageDwarf, setAgeDwarf] = React.useState('');
   const navigate = useNavigate();
 
   React.useEffect(() => {
     const getDwarves = async () => {
       const obj = await fetch(
-        "https://run.mocky.io/v3/57a40d2a-d890-4506-99cb-6acd7c2217fd"
+        'https://run.mocky.io/v3/48f699f4-3b78-4cc6-9044-06f510a8845d'
       );
       const result = await obj.json();
       setDwarves(result);
@@ -32,12 +32,12 @@ const GameScreen = () => {
       (randomDwarf.img === randomDwarf.img &&
         nameDwarf === randomDwarf.name &&
         randomDwarf.yearOfBirth === null &&
-        ageDwarf === "Unknown") ||
+        ageDwarf === 'Unknown') ||
       Number(ageDwarf) === 2941 - randomDwarf.yearOfBirth
     ) {
-      navigate("/win");
+      navigate('/win');
     } else {
-      navigate("lose");
+      navigate('lose');
     }
     e.preventDefault();
   };
